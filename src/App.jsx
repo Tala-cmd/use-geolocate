@@ -1,5 +1,5 @@
 import { useState } from "react";
-import useGeolocation from "./useGeolocation";
+import { useGeolocation } from "./useGeolocation";
 
 export default function App() {
   const [countClicks, setCountClicks] = useState(0);
